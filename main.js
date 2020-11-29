@@ -7,10 +7,5 @@ function updateHandle () {
 
 inputs.forEach( function(input) {
   input.addEventListener(`change`, updateHandle);
-});
-
-inputs.forEach( function(input) {
   input.addEventListener(`mousemove`, updateHandle);
 });
-
-  
